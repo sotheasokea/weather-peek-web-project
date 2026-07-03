@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+  <main>
+    <h1 class="app-tittle col-12">WEATHER-PEEK</h1>
+    <div class="container1 col-12 col-md-7 col-lg-6">
+      <div class="search col-12 col-md-8 col-lg-10 d-flex">
+        <input type="text" id="city-name-input" class="input-box flex-grow-1" placeholder="Enter a location name">
+        <button class="search-button">Search</button>
+      </div>
+      <div class="weather col-12">
+        <div class="important-details col-12">
+          <img src="./image/sunny.svg" alt="" class="weather-today col-12">
+          <h1 class="temperature col-12 d-flex justify-content-center">37°C</h1>
+          <p class="max-min-temp">L:36° H:37°</p>
+          <p class="city-name col-12 d-flex justify-content-center">Cambodia</p>
+        </div>
+        <div class="more-details col-12">
+          <div class="humidity col-6">
+            <p class="humidity-tittle col-12 d-flex justify-content-left">Humidity</p>
+            <div class="d-flex">
+              <img src="./image/humidity.svg" alt="humidity image" class="col-5" >
+            <p class="humidity-today col-7 d-flex justify-content-center align-items-center">25%</p>
+            </div>
+            
+          </div>
+          <div class="wind-speed col-6 align-items-center">
+            <p class="wind-speed-tittle col-12 d-flex justify-content-left">Wind Speed</p>
+            <div class="d-flex">
+              <img src="./image/wind-speed.svg" alt="wind image" class="col-5" >
+            <p class="wind-speed-today col-7 d-flex justify-content-center align-items-center">10 km/h</p>
+            </div>
+          </div>
+          <div class="feel-like col-6 align-items-center">
+            <p class="feel-like-tittle col-12 d-flex justify-content-left">Feel Like</p>
+            <div class="d-flex">
+              <img src="./image/temperature-feels-like-svgrepo-com.svg" alt="feel-like image" class="col-5" >
+            <p class="feel-like-today col-7 d-flex justify-content-center align-items-center">37°C</p>
+            </div>
+          </div>
+          <div class="visibility col-6 align-items-center">
+            <p class="visibility-tittle col-12 d-flex justify-content-left">Visibility</p>
+            <div class="d-flex">
+              <img src="./image/visibility.svg" alt="visibility image" class="col-5" >
+            <p class="visibility-today col-7 d-flex justify-content-center align-items-center">10 km</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container2 col-12 col-md-7 col-lg-6">
+      <p class="hourly-forecast-title col-12">Hourly Forecast</p>
+      <div class="hourly-forecast-details d-flex">
+        
+      </div>
+    </div>
+    <div class="container3 col-12 col-md-7 col-lg-6">
+      <p class="five-days-forecast-title col-12">5 Days forecast</p>
+      <div class="five-days-forecast-details col-12">
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html
