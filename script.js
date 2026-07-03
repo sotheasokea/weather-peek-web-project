@@ -1,4 +1,4 @@
-const apiKey = "01be76448babf58a3e7328a605683454";
+// const apiKey = "your_api_key";
 
 fetchWeatherInfo("cambodia");
 fetchFiveDaysForecast("cambodia");
