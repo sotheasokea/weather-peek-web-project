@@ -5,7 +5,7 @@ Weather-Peek is a responsive, dynamic weather forecasting web application. It de
 Built as a portfolio piece to showcase modern frontend techniques, asynchronous JavaScript architecture, and responsive UI layouts using Bootstrap.
 
 ##  Live Demo
-[View Live Project]
+https://weather-peek-web-project.vercel.app/
 
 ---
 
